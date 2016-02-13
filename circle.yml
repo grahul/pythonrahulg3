@@ -1,0 +1,10 @@
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: pythonrahulg3
+
+test:
+  override:
+    -  echo " no case test"
+
